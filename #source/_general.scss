@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.start{
+    text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+    color: #505050;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    /* Text style for "A, gency," */
+    letter-spacing: 2.7px;
+    /* Text style for "" */
+    letter-spacing: 2.7px;
+    margin-top: 206px;
+    text-align: center;
+    @media (max-width:720px){
+        margin-top: 50px;
+    }
+    &__blue{
+        background-color: #76f4eab2;
+        padding: 0px 5px;
+    }
+}
+.title{
+    text-align: center;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2.28px;
+}
+.subtitle{
+    color: #444343e3;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.08px;
+}
+.subtitle__bold{
+    color: #000000;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.text{
+    color: #000000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+}
+.button__style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 160px;
+    min-height: 53px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2.16px;
+    border-radius: 2px;
+    border: 2px solid #000000;
+    transition: all .3s ease;
+    &:hover{
+        cursor: pointer;
+        background-color: #6eeee4;
+        box-shadow: 0 0 30px rgba(21, 21, 21, 0.12);
+        border: 2px solid transparent;
+    }
+}
+.arrow{
+    background-color: gray;
+}
